@@ -1,0 +1,431 @@
+[
+    {
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "zoning_code": "RS-4",
+        "zoning_name": "Residential Single-family 4",
+        "minimum_street_frontage":
+                            {
+                                "name": "Minimum Street Frontage",
+                                "value": 30,
+                                "unit":"feet",
+                                "note":"Minimum street frontage requirements apply to townhouse developments, not to individual townhouse units. Cottage house developments require minimum street frontage of 75 feet. Minimum street frontage requirements do not apply to nonresidential uses.",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                            },
+        "minimum_arterial_street_setback":
+                            {
+                                "name" : "Minimum Arterial Street Setback",
+                                "value":35,
+                                "unit": "feet",
+                                "note":"For detached houses and duplexes on corner lots, the minimum side street setback along a non-arterial street may be reduced to 15 feet, provided that the minimum setback for street-facing garage doors is 20 feet or 20 feet from the back of the sidewalk, whichever is greater. The street setback specified in Table 5-3 applies along the other street.",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },                                                                                                
+        "minimum_other_street_setback":
+                            {
+                                "name" : "Minimum Non-Arterial Street Setback",
+                                "value":35,
+                                "unit": "feet",
+                                "note":"For detached houses and duplexes on corner lots, the minimum side street setback along a non-arterial street may be reduced to 15 feet, provided that the minimum setback for street-facing garage doors is 20 feet or 20 feet from the back of the sidewalk, whichever is greater. The street setback specified in Table 5-3 applies along the other street.",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },
+        "minimum_interior_side_setback":
+                            {
+                                "name" : "Minimum Interior Side Setback",
+                                "value":5,
+                                "unit": "feet",
+                                "note":"Non-residential uses requiring special exception approval in R zoning districts require minimum 25-foot building setback from R-zoned lots that are vacant or occupied by residential uses.",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },
+        "minimum_rear_setback":
+                            {
+                                "name":"Minimum Rear Setback",  
+                                "value":20,
+                                "unit": "feet",
+                                "note":"Non-residential uses requiring special exception approval in R zoning districts require minimum 25-foot building setback from R-zoned lots that are vacant or occupied by residential uses.",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },
+        "minimum_open_space_per_unit":
+                            {
+                                "name" : "Minimum Open Space per Unit",
+                                "value":2500,
+                                "unit": "square feet",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },
+        "maximum_building_height":
+                            {
+                                "name" : "Maximum Building Height",
+                                "value":35,
+                                "unit": "feet",
+                                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"                                                                                                                        
+                            },
+        "residential": 
+                        {
+                            "single_household": 
+                                                {
+                                                    "name": "Single Household",
+                                                    "permit_type": "Permitted",
+                                                    "note": "A Farm-, Market- or Community-supported, may only be allowed in a residential district where the land area of a single parcel is greater than 2 acres.", 
+                                                    "building_type":
+                                                                        {
+                                                                            "detached_house":{
+                                                                                                "name" : "Detached house",
+                                                                                                "permit_type":"Permitted",
+                                                                                                "minimum_lot_area":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area",
+                                                                                                                        "value": 5500,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_area_per_unit":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area per Unit",
+                                                                                                                        "value": 5500,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_width":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Width",
+                                                                                                                        "value": 50,
+                                                                                                                        "unit":"feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    }
+                                                                            },
+                                                                            "patio_house":{
+                                                                                                "name" : "Patio House",
+                                                                                                "permit_type":"Permitted",
+                                                                                                "note":"Patio houses are subject to the lot and building regulations of the subject zoning district, except as expressly modified by the supplemental patio house regulations of this section.\n A.A patio house development must consist of at least three (3) contiguous lots with frontage on the same street.\n B.The interior side building setback on one side of the lot containing a patio house may be reduced to as little as zero. The zero- or reduced setback side of a patio house may not abut a street and may not abut a lot that is not part of the patio house development. On the 'non-zero' side, a side building setback must be provided equal to at least twice the minimum side building setback requirement of the subject zoning district.\n C.When the patio house's exterior wall or eaves are within two (2) feet of the abutting property line, a perpetual maintenance easement at least five (5) feet in width must be provided on the lot abutting the zero patio property line, which, with the exception of walls and/or fences, must be kept clear of structures. The easement must be depicted on and established in a recorded plat or a separate legal instrument recorded in the county clerk's office. This provision is intended to ensure the ability to conduct maintenance on the patio house. Eaves on the side of a patio house with a zero or reduced setback may project over the side property line only if shown on the easement required under this paragraph.D.Windows, doors and other openings that allow for visibility into the side yard of the lot abutting the reduced or zero setback side of the patio house are prohibited. Windows that do not allow visibility into the side yard of the lot abutting the zero or reduced setback side, such as clerestory windows or translucent windows, are allowed, subject to compliance with the building code.\n E. A patio house development is permitted only if a subdivision plat or other recorded legal instrument incorporating the provisions and requirements of this section (Section 40.290) is recorded in the county clerk's office.",
+                                                                                                "minimum_lot_area":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area",
+                                                                                                                        "value": 5500,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_area_per_unit":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area per Unit",
+                                                                                                                        "value": 5500,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_width":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Width",
+                                                                                                                        "value": 50,
+                                                                                                                        "unit":"feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    }
+                                                                            },
+                                                                            "two_unit_townhouse":{
+                                                                                                    "name": "2-unit Townhouse",
+                                                                                                    "permit_type":"Special Exception. Approval Required.",
+                                                                                                    "note":"A.Applicability. Townhouses are subject to all applicable regulations of this zoning code and other city codes and ordinances except as modified or supplemented by the townhouse development and building regulations of this section.\n B.Side setbacks. No side building setback is required for common or abutting walls. Otherwise, the minimum side setback requirements of the subject zoning district apply.\n C.Design. Townhouses must be affixed to a permanent foundation.\n D.Open space. Required open space per dwelling unit for a townhouse project may be provided either on each townhouse lot or in common areas within the overall townhouse project, as designated on a recorded subdivision plat or in a separately recorded legal instrument.",
+                                                                                                    "minimum_lot_area":
+                                                                                                                        {
+                                                                                                                            "name":"Minimum Lot Area",
+                                                                                                                            "value": 4500,
+                                                                                                                            "unit":"square feet",
+                                                                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                        },
+                                                                                                    "minimum_lot_area_per_unit":
+                                                                                                                        {
+                                                                                                                            "name":"Minimum Lot Area per Unit",
+                                                                                                                            "value": 4500,
+                                                                                                                            "unit":"square feet",
+                                                                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                        },
+                                                                                                    "minimum_lot_width":
+                                                                                                                        {
+                                                                                                                            "name":"Minimum Lot Width",
+                                                                                                                            "value": 25,
+                                                                                                                            "unit":"feet",
+                                                                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                        }                                                                                                                                                                                     
+                                                                                                },
+                                                                            "manufactured_housing_unit":{
+                                                                                                "name" : "Manufactured housing unit",
+                                                                                                "permit_type":"Special Exception. Approval Required.",
+                                                                                                "note":"The supplemental regulations of this section apply only to manufactured housing units approved as special exception uses in R or AG-R zoning districts.\n A.The manufactured housing unit must be removed from the lot within one year of the date of special exception approval. The board of adjustment is authorized to extend the one-year limit through approval of a subsequent special exception if the (special exception) extension request is filed before expiration of the one-year time limit.\n B.No more than one manufactured housing unit may be located on a lot.\n C.Manufactured housing units are required to comply with the same lot and building regulations that apply to detached houses in the subject zoning district.",
+                                                                                                "minimum_lot_area":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area",
+                                                                                                                        "value": 12000,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_area_per_unit":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area per Unit",
+                                                                                                                        "value": 12000,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_width":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Width",
+                                                                                                                        "value": 100,
+                                                                                                                        "unit":"feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    }   
+                                                                                            }
+                                                                        }
+                                                },
+                            "two_households_single_lot":
+                                                {
+                                                    "name": "Two households on single lot",
+                                                    "permit_type": "Special Exception. Approval Required.",
+                                                    "building_type":
+                                                                        {
+                                                                            "duplex":{
+                                                                                                "name" : "Duplex",
+                                                                                                "permit_type":"Special Exception. Approval Required.",
+                                                                                                "minimum_lot_area":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area",
+                                                                                                                        "value": 5500,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_area_per_unit":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Area per Unit",
+                                                                                                                        "value": 2750,
+                                                                                                                        "unit":"square feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    },
+                                                                                                "minimum_lot_width":
+                                                                                                                    {
+                                                                                                                        "name":"Minimum Lot Width",
+                                                                                                                        "value": 50,
+                                                                                                                        "unit":"feet",
+                                                                                                                        "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                                                                    }
+                                                                                    }
+                                                                        }
+                                                },
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Assisted living facility",
+                                                    "permit_type": "Special Exception. Approval Required.",
+                                                    "minimum_lot_area":
+                                                                        {
+                                                                            "name":"Minimum Lot Area",
+                                                                            "value": 5500,
+                                                                            "unit":"square feet",
+                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                        },
+                                                    "minimum_lot_area_per_unit":
+                                                                        {
+                                                                            "name":"Minimum Lot Area per Unit",
+                                                                            "value": 2750,
+                                                                            "unit":"square feet",
+                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                        },
+                                                    "minimum_lot_width":
+                                                                        {
+                                                                            "name":"Minimum Lot Width",
+                                                                            "value": 50,
+                                                                            "unit":"feet",
+                                                                            "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                                                                        }
+                                                    },
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Community group home",   
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Convent/monastery/novitiate",
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Homeless center",
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Life care retirement center",
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Re-entry facility",
+                            "assisted_living_facility":
+                                                {
+                                                    "name":"Residential treatment center",
+                            "shelter":
+                                                {   
+                                                    "name":"Shelter, emergency and protective",
+                            "transitional_living_center":
+                                                {
+                                                    "name":"Transitional living center",
+                                Assisted living facility	S	S	S	S	S	S	S	S	P	P	P	P	-	
+                                 Community group home	S	S	S	S	S	S	S	S	P	P	P	P	-	 Section 40.100
+                                 Convent/monastery/novitiate	S	S	S	S	S	S	S	S	P	P	P	P	-	
+                                 Elderly/retirement center	-	-	-	-	-	-	-	-	P	P	P	P	-	
+                                 Fraternity/Sorority	-	-	-	-	-	-	-	-	P	P	P	P	-	
+                                 Homeless center	S	S	S	S	S	S	S	S	S	S	S	S	S	 Section 40.130
+                                 Life care retirement center	S	S	S	S	S	S	S	-	P	P	P	P	-	
+                                 Re-entry facility	S	S	S	S	S	S	S	S	S	S	S	S	S	
+                                 Residential treatment center	S	S	S	S	S	S	S	S	S	S	S	S	S	 Section 40.130
+                                 Rooming/boarding house	-	-	-	-	-	-	-	-	P	P	P	P	-	
+                                 Shelter, emergency and protective	S	S	S	S	S	S	S	S	S	S	S	S	S	 Section 40.130
+                                 Transitional living center	S	S	S	S	S	S	S	S	S	S	S	S	S	 Section 40.130
+
+                            }
+                            
+                        }
+        "":
+
+                                                                                    
+                                            
+
+
+
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        {  
+                                        "value":[
+                                                    "Repealed",
+                                                    "Public schools through the secondary level operated by the Atlanta Board of Education, having no dwelling or lodging facilities except for caretakers.",
+                                                    "Single family detached dwellings",
+                                                    "Structures and uses required for the operation of MARTA, but not including uses involving storage, train yards, warehousing, switching or maintenance shops as the primary purposes.",
+                                                    "Short-term rentals, subject to the regulations in Atlanta City Code section 20-1001."
+                                                    ],
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.003PEPRUSST"
+                                    },
+                        "accessory": {  
+                                        "value":[
+                                                    "Greenhouses, garden sheds, private garages and similar structures.",
+                                                    "Barns for the keeping of horses, provided that no such barn shall be within 50 feet of any lot line.",
+                                                    "Guest houses, servant quarters, or lodging facilities for caretakers or watchmen.",
+                                                    "Swimming pools, tennis courts and similar facilities.",
+                                                    "Home occupation, subject to the limitations set forth in section 16-29.001(17).",
+                                                    "Structures necessary for active construction projects.",
+                                                    "Devices for the generation of energy, such as solar panels, wind generators and similar devices.",
+                                                    "Amateur radio service antenna structures 70 feet or less in height. Amateur radio service antenna towers over 70 feet in height shall be by special use permit and comply with the requirements of 16-25.002(3)h, except that subsection h(ii) and subsection h(iv)(d) shall not be applicable to such applications.",
+                                                    "Electric vehicle charging stations equipped with Level 1 and/or Level 2 EVSE.",
+                                                    "Urban gardens.",
+                                                    "Market gardens are limited to parcels that are used as schools, churches, synagogues, temples, mosques and other religious worship facilities.",
+                                                    "Accessory dwelling units, where the total number of dwelling units on any parcel, including the accessory dwelling unit, does not exceed two."
+                                                ],
+                                        "notes":[
+                                                    "Accessory uses include but are not limited to the following, subject to limitations and requirements set forth herein or elsewhere in this part.",
+                                                    "Except in the case of home occupation, no accessory use shall be of a commercial nature.",
+                                                    "No accessory building shall be constructed until construction of the principal building has actually begun, and no accessory building shall be used or occupied until the principal building is completed and in use."
+                                                ],
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.004PEACUSST"
+                                    },
+                        "special":  {  
+                                        "special_use_permits": 
+                                                            {
+                                                                "value":
+                                                                            [
+                                                                            "Cemeteries, mausoleums and columbariums.",
+                                                                            "Child care nurseries, day care centers, prekindergartens, kindergartens, play and special schools or day care facilities for young children.",
+                                                                            "Churches, synagogues, temples, mosques and other religious worship facilities.",
+                                                                            "Civic, service, garden, neighborhood or private clubs.",
+                                                                            "Colleges and universities, other than trade schools, business colleges and similar uses.",
+                                                                            "Extraction or removal of sand, gravel, topsoil, clay, dirt, or other natural resources.",
+                                                                            "Personal care homes and rehabilitation centers.",
+                                                                            "Landfills.",
+                                                                            "Broadcasting towers and line-of-site relay devices for telephonic, radio or television communications greater than 70 feet in height, except 1) alternative design mounting structures and 2) new or additional uses of existing structures as contemplated by section 16-25.002(3)(i)(iv)(k).",
+                                                                            "Nursing homes.",
+                                                                            "Parks; playgrounds, stadiums, baseball or football fields, golf course, sports arena, and community centers.",
+                                                                            "Private schools.",
+                                                                            "If a lot has no existing street frontage a special use permit is required for the development of a single-family detached dwelling. All other permitted uses and permitted accessory uses and structures are allowed by right on said lot."
+                                                                            ]
+                                                            },
+                                        "special_administrative_permits":
+                                                            {
+                                                                "value":
+                                                                        [
+                                                                            "Farmers' markets limited to parcels which meet the minimum lot size requirements and are used as churches, synagogues, temples, mosques and other religious worship facilities or schools.",
+                                                                            "Broadcasting towers and line-of-site relay devices for telephonic, radio or television communications 70 feet or less in height, alternative design mounting structures, and new or additional uses of existing structures as contemplated by section 16-25.002(3)(i)(iv)(k).",
+                                                                            "Whenever an application for such a permit is made, the director of the bureau of planning shall provide prior notification to the pertinent district councilmember and at-large councilmembers.(d)Urban gardens as a principal use on an undeveloped lot."
+                                                                        ]        
+                                                            },
+                                        "special_exception":
+                                                            {
+                                                                "value":
+                                                                        [
+                                                                            "Churches, synagogues, temples, mosques and other religious worship facilities, where lot area is one acre or less.",
+                                                                            "Structures and uses required for operation of a public utility, except uses involving storage, train yards, warehousing, switching, or maintenance shops as the primary purpose."
+                                                                        ]
+                                                            },
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.005SPPE"
+                                    }
+                        },
+        "minimum_lot_size": {
+                                    "value":9000,
+                                    "unit":"square feet", 
+                                    "note":"If a lot has less area or width than herein required and was a lot of record on the effective date of this part, that lot shall be used only for a single-family dwelling.",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.007MILORE"
+                            },
+        "minimum_frontage": {
+                                    "value":70,
+                                    "unit":"feet",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.007MILORE"
+                                    //you can add comments if any doubt or thing to be discussed..
+                            },
+        "minimum_front_setback": {
+                                    "value":35,
+                                    "unit":"feet",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "minimum_side_setback": {
+                                    "value":7,
+                                    "unit":"feet",
+                                    "note": "There shall be two side yards, one on each side of the main building, each having a width of not less than seven feet.",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "maximum_floor_area_ratio": {
+                                    "value":0.5,
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                             },
+        "maximum_lot_coverage": {
+                                    "value":0.5,
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "minimum_off_street_parking":{
+                                        "value":{
+                                                    "Single-family detached dwellings": "One space per dwelling.",
+                                                    "Schools, colleges, churches, recreational or community centers and other places of assembly": "One space for each four fixed seats (with 18 inches of bench length counted as one seat), or one space for each 35 square feet of enclosed floor area for the accommodation of movable seats in the largest assembly room, whichever is greater, plus the following: (a)Public or private elementary or middle school: Two spaces for each classroom.(b)High school: Four spaces for each classroom.(c)Colleges and universities: Eight spaces for each classroom.",
+                                                    "Nursing homes": "Nursing homes are required to have one space for each two employees and one additional space if there are three or fewer occupants. If there are four to six occupants, a second additional space is required.",
+                                                    "Child care centers, day care centers, prekindergartens, kindergartens, play and other special schools or day care centers for young children" : "One space per 600 square feet of floor area. In addition to providing off-street parking, such establishments shall provide safe and convenient facilities for loading and unloading children, as approved by the director, bureau of traffic and transportation.",
+                                                    "Other uses": "One space for each 300 square feet of floor area.(6)Accessory dwelling units. No parking required."
+                                                },
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.010MIOREPARE"
+                            },
+        "front_porches":{
+                            "note":
+                                    [
+                                        "Front porches and/or stoops on the façade of the principal structure shall be required when such treatments are established by a majority of the single-family detached dwellings on the block face.",
+                                        "Front porches, when required, shall: \n i. Be a minimum of 12 feet wide or one-third the width of the front façade, whichever is greater, and a minimum of eight feet deep; and \n ii. Contain roofs, a minimum of six-inch wide porch roof supports, and steps.",
+                                        "For parcels with more than one street frontage, the front porch requirements of this section shall only be required to be applied to the building façade located in the front yard of the parcel, and not the half-depth front yard, side yard, or rear yard."
+                                    ],
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                            },
+        "garage":{
+                            "note": "Garages with front-facing garage doors shall be recessed and located a minimum distance of ten linear feet behind the front façade of the principal structure. For parcels with more than one street frontage, front-facing garage doors shall be defined as those facing the front yard of the parcel, and not the half-depth front yard, side yard, or rear yard.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        },
+        "front_door":{
+                            "note": "Front doors shall face and be visible from the adjacent street.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        },
+        "window_fenestration":{
+                            "note": "Window fenestration shall be provided along the façade of the principal structure for a minimum of ten percent of the front façade area of the principal structure.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        }
+    },
+    {   
+    //continue for a new zoning_code
+    },
+    {
+        //continue for a new zoning code
+    },
+
+    //continue for the rest of zoning codes
+]

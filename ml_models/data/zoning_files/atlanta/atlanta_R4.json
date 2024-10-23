@@ -1,0 +1,155 @@
+[
+    {
+        "city": "Altanta",
+        "county": ["Fulton county","DeKalb county"],
+        "state": "Georgia",
+        "zoning_code": "R-4",
+        "zoning_name": "Single-Family Residential District",
+        "allowed_uses":{
+                        "principal": {  
+                                        "value":[
+                                                    "Repealed",
+                                                    "Public schools through the secondary level operated by the Atlanta Board of Education, having no dwelling or lodging facilities except for caretakers.",
+                                                    "Single family detached dwellings",
+                                                    "Structures and uses required for the operation of MARTA, but not including uses involving storage, train yards, warehousing, switching or maintenance shops as the primary purposes.",
+                                                    "Short-term rentals, subject to the regulations in Atlanta City Code section 20-1001."
+                                                    ],
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.003PEPRUSST"
+                                    },
+                        "accessory": {  
+                                        "value":[
+                                                    "Greenhouses, garden sheds, private garages and similar structures.",
+                                                    "Barns for the keeping of horses, provided that no such barn shall be within 50 feet of any lot line.",
+                                                    "Guest houses, servant quarters, or lodging facilities for caretakers or watchmen.",
+                                                    "Swimming pools, tennis courts and similar facilities.",
+                                                    "Home occupation, subject to the limitations set forth in section 16-29.001(17).",
+                                                    "Structures necessary for active construction projects.",
+                                                    "Devices for the generation of energy, such as solar panels, wind generators and similar devices.",
+                                                    "Amateur radio service antenna structures 70 feet or less in height. Amateur radio service antenna towers over 70 feet in height shall be by special use permit and comply with the requirements of 16-25.002(3)h, except that subsection h(ii) and subsection h(iv)(d) shall not be applicable to such applications.",
+                                                    "Electric vehicle charging stations equipped with Level 1 and/or Level 2 EVSE.",
+                                                    "Urban gardens.",
+                                                    "Market gardens are limited to parcels that are used as schools, churches, synagogues, temples, mosques and other religious worship facilities.",
+                                                    "Accessory dwelling units, where the total number of dwelling units on any parcel, including the accessory dwelling unit, does not exceed two."
+                                                ],
+                                        "notes":[
+                                                    "Accessory uses include but are not limited to the following, subject to limitations and requirements set forth herein or elsewhere in this part.",
+                                                    "Except in the case of home occupation, no accessory use shall be of a commercial nature.",
+                                                    "No accessory building shall be constructed until construction of the principal building has actually begun, and no accessory building shall be used or occupied until the principal building is completed and in use."
+                                                ],
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.004PEACUSST"
+                                    },
+                        "special":  {  
+                                        "special_use_permits": 
+                                                            {
+                                                                "value":
+                                                                            [
+                                                                            "Cemeteries, mausoleums and columbariums.",
+                                                                            "Child care nurseries, day care centers, prekindergartens, kindergartens, play and special schools or day care facilities for young children.",
+                                                                            "Churches, synagogues, temples, mosques and other religious worship facilities.",
+                                                                            "Civic, service, garden, neighborhood or private clubs.",
+                                                                            "Colleges and universities, other than trade schools, business colleges and similar uses.",
+                                                                            "Extraction or removal of sand, gravel, topsoil, clay, dirt, or other natural resources.",
+                                                                            "Personal care homes and rehabilitation centers.",
+                                                                            "Landfills.",
+                                                                            "Broadcasting towers and line-of-site relay devices for telephonic, radio or television communications greater than 70 feet in height, except 1) alternative design mounting structures and 2) new or additional uses of existing structures as contemplated by section 16-25.002(3)(i)(iv)(k).",
+                                                                            "Nursing homes.",
+                                                                            "Parks; playgrounds, stadiums, baseball or football fields, golf course, sports arena, and community centers.",
+                                                                            "Private schools.",
+                                                                            "If a lot has no existing street frontage a special use permit is required for the development of a single-family detached dwelling. All other permitted uses and permitted accessory uses and structures are allowed by right on said lot."
+                                                                            ]
+                                                            },
+                                        "special_administrative_permits":
+                                                            {
+                                                                "value":
+                                                                        [
+                                                                            "Farmers' markets limited to parcels which meet the minimum lot size requirements and are used as churches, synagogues, temples, mosques and other religious worship facilities or schools.",
+                                                                            "Broadcasting towers and line-of-site relay devices for telephonic, radio or television communications 70 feet or less in height, alternative design mounting structures, and new or additional uses of existing structures as contemplated by section 16-25.002(3)(i)(iv)(k).",
+                                                                            "Whenever an application for such a permit is made, the director of the bureau of planning shall provide prior notification to the pertinent district councilmember and at-large councilmembers.(d)Urban gardens as a principal use on an undeveloped lot."
+                                                                        ]        
+                                                            },
+                                        "special_exception":
+                                                            {
+                                                                "value":
+                                                                        [
+                                                                            "Churches, synagogues, temples, mosques and other religious worship facilities, where lot area is one acre or less.",
+                                                                            "Structures and uses required for operation of a public utility, except uses involving storage, train yards, warehousing, switching, or maintenance shops as the primary purpose."
+                                                                        ]
+                                                            },
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.005SPPE"
+                                    }
+                        },
+        "minimum_lot_size": {
+                                    "name": "Minimum Lot Size",
+                                    "value":9000,
+                                    "unit":"square feet", 
+                                    "note":"If a lot has less area or width than herein required and was a lot of record on the effective date of this part, that lot shall be used only for a single-family dwelling.",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.007MILORE"
+                            },
+        "minimum_frontage": {
+                                    "name": "Minimum Street Frontage",
+                                    "value":70,
+                                    "unit":"feet",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.007MILORE"
+                            },
+        "minimum_front_setback": {
+                                    "name": "Minimum Front Setback",
+                                    "value":35,
+                                    "unit":"feet",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "minimum_side_setback": {
+                                    "name": "Minimum Side Setback",
+                                    "value":7,
+                                    "unit":"feet",
+                                    "note": "There shall be two side yards, one on each side of the main building, each having a width of not less than seven feet.",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "minimum_rear_setback": {
+                                    "name": "Minimum Rear Setback",
+                                    "value":15,
+                                    "unit":"feet",
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "maximum_floor_area_ratio": {
+                                    "name": "Maximum Floor to Area Ratio",
+                                    "value":0.5,
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                             },
+        "maximum_lot_coverage": {
+                                    "name": "Maximum Lot Coverage",
+                                    "value":0.5,
+                                    "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.008MIYARE"
+                            },
+        "minimum_off_street_parking":{
+                                        "value":{
+                                                    "Single-family detached dwellings": "One space per dwelling.",
+                                                    "Schools, colleges, churches, recreational or community centers and other places of assembly": "One space for each four fixed seats (with 18 inches of bench length counted as one seat), or one space for each 35 square feet of enclosed floor area for the accommodation of movable seats in the largest assembly room, whichever is greater, plus the following: (a)Public or private elementary or middle school: Two spaces for each classroom.(b)High school: Four spaces for each classroom.(c)Colleges and universities: Eight spaces for each classroom.",
+                                                    "Nursing homes": "Nursing homes are required to have one space for each two employees and one additional space if there are three or fewer occupants. If there are four to six occupants, a second additional space is required.",
+                                                    "Child care centers, day care centers, prekindergartens, kindergartens, play and other special schools or day care centers for young children" : "One space per 600 square feet of floor area. In addition to providing off-street parking, such establishments shall provide safe and convenient facilities for loading and unloading children, as approved by the director, bureau of traffic and transportation.",
+                                                    "Other uses": "One space for each 300 square feet of floor area.(6)Accessory dwelling units. No parking required."
+                                                },
+                                        "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.010MIOREPARE"
+                            },
+        "front_porches":{
+                            "note":
+                                    [
+                                        "Front porches and/or stoops on the façade of the principal structure shall be required when such treatments are established by a majority of the single-family detached dwellings on the block face.",
+                                        "Front porches, when required, shall: \n i. Be a minimum of 12 feet wide or one-third the width of the front façade, whichever is greater, and a minimum of eight feet deep; and \n ii. Contain roofs, a minimum of six-inch wide porch roof supports, and steps.",
+                                        "For parcels with more than one street frontage, the front porch requirements of this section shall only be required to be applied to the building façade located in the front yard of the parcel, and not the half-depth front yard, side yard, or rear yard."
+                                    ],
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                            },
+        "garage":{
+                            "note": "Garages with front-facing garage doors shall be recessed and located a minimum distance of ten linear feet behind the front façade of the principal structure. For parcels with more than one street frontage, front-facing garage doors shall be defined as those facing the front yard of the parcel, and not the half-depth front yard, side yard, or rear yard.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        },
+        "front_door":{
+                            "note": "Front doors shall face and be visible from the adjacent street.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        },
+        "window_fenestration":{
+                            "note": "Window fenestration shall be provided along the façade of the principal structure for a minimum of ten percent of the front façade area of the principal structure.",
+                            "source":"https://library.municode.com/ga/atlanta/codes/code_of_ordinances?nodeId=PTIIICOORANDECO_PT16ZO_CH6SIMIREDIRE_S16-06.012REBUST"
+                        }
+    }
+]

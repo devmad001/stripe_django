@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report</title>
+    <style>
+      body,
+      p {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .container {
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 2px solid #ffedd1;
+        margin: 24px;
+      }
+      .logo {
+        text-align: center;
+        padding: 32px 0;
+      }
+      .banner {
+        padding: 16px;
+        background-color: #126440;
+        color: white;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: Arial, sans-serif;
+      }
+      .house {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+      }
+      .header {
+        padding: 16px;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 30px;
+        color: #126440;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+      .header p {
+        font-size: 14px;
+        color: #126440;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .button {
+        display: inline-block;
+        background-color: #126440;
+        color: white;
+        text-decoration: none;
+        padding: 16px 48px;
+        margin-top: 16px;
+        border-radius: 40px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: Arial, sans-serif;
+      }
+      .content {
+        margin: 20px 32px;
+      }
+      .column {
+        display: table;
+        width: 100%;
+      }
+      .cell {
+        display: table-cell;
+        border: 1px solid #ddd;
+        padding: 24px;
+        font-size: 20px;
+      }
+      .center {
+        text-align: center;
+      }
+      .cell.center {
+        margin-bottom: 5px;
+      }
+      .row {
+        display: table-row;
+        gap: 5px;
+      }
+      .row > .cell {
+        flex: 1;
+      }
+      .border-top-0 .cell {
+        border-top: 0;
+      }
+      .comp-head,
+      .cell h2 {
+        margin: 0;
+        color: rgb(224, 187, 127);
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+      .cell p {
+        font-size: 20px;
+      }
+      .recommendations {
+        padding: 20px 30px;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .footer-banner {
+        padding: 50px 32px;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: 400;
+        margin: 30px;
+      }
+      .zoning h2 {
+        font-size: 12px;
+      }
+      .zoning p {
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      .zoning .cell p:last-child {
+        margin-bottom: 0;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+      }
+      .footer a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="https://iqland.ai/" target="_blank" rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/logo.png"
+            alt="IQLand Logo"
+            height="40"
+        /></a>
+      </div>
+      <div class="banner center">
+        Shaping the Future of Home Development with Data
+      </div>
+      <img
+        src="{{report.selected_plan.image_link}}"
+        alt="{{report.selected_plan.title}}"
+        class="house"
+      />
+
+      <div class="header center">
+        <h1>{{report.selected_plan.title}}</h1>
+        <p>Effective Report Date: {{date}}</p>
+        <a
+          class="button"
+          href="https://iqland.ai/dashboard"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: white"
+          >View Report on Dashboard</a
+        >
+      </div>
+
+      <div class="content">
+        <div class="cell center uppercase" style="width: 100vw">
+          <img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/map-marker.png"
+            width="40"
+            height="40"
+            style="object-fit: contain; margin: 0 auto"
+          />
+          <p>{{ report.address }}</p>
+        </div>
+        <div class="column">
+          <div class="row">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/bed.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Bedrooms</h2>
+              <p>{{ report.selected_plan.bedrooms_count }}</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/garage.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Garage</h2>
+              <p>{{ report.selected_plan.area_garage }}</p>
+            </div>
+          </div>
+          <div class="row border-top-0">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/bathtub.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Bathrooms</h2>
+              <p>{{ report.selected_plan.bathrooms_count }}</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/basement.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Stories</h2>
+              <p>{{ report.selected_plan.stories }}</p>
+            </div>
+          </div>
+          <div class="row border-top-0">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/basement.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Basement</h2>
+              <p>{{ report.selected_plan.area_basement }}</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/total.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>TOTAL AREA</h2>
+              <p>{{ report.selected_plan.area_total }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations center">
+          This is one of the many home plan recommendations available for you to
+          analyze on the IQLAND.ai dashboard. Per our report, this plan would
+          meet the local zoning regulations of this land parcel.
+        </div>
+
+        <h1 class="center">
+          KPIs for
+          <span style="color: rgb(224, 187, 127)"
+            >{{report.selected_plan.title}}</span
+          >
+        </h1>
+
+        <div class="column">
+          <div class="row">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/garage.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Value After Completion</h2>
+              <p>${{ report.kpis.vac }}</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/construction-hat.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Construction Costs</h2>
+              <p>${{ report.kpis.construction_cost }}</p>
+            </div>
+          </div>
+          <div class="row border-top-0">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/table.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Total Project Cost</h2>
+              <p>${{ report.kpis.total_project_cost }}</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/money-plant.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Estimated Equity</h2>
+              <p>${{ report.kpis.equity }}</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="center" style="margin-top: 30px">
+          Our data suggest
+          <span style="color: rgb(224, 187, 127)"
+            >this property will provide a profit / equity range of
+            {{report.kpis.equity}}</span
+          >. This number is derived from a detailed comparable sales analysis,
+          local construction costs, build quality and current market sentiment.
+        </p>
+        {% if report.comparable_sales %}
+        <h1 class="center">Comparable Sales</h1>
+        <div class="column">
+          <div class="row">
+            {% for sale in report.comparable_sales|slice:"0:3" %}
+            <div class="cell">
+              <p>{{sale.address}}</p>
+              <br />
+              <p><span class="comp-head">Distance</span>{{sale.distance}} ft</p>
+              <p><span class="comp-head">Area</span>{{sale.area}} sqft</p>
+              <p>
+                <span class="comp-head">Bed/Bath</span
+                >{{sale.bedroom_count}}/{{sale.bathroom_count}}
+              </p>
+              <p><span class="comp-head">Year Built</span>{{sale.year}}</p>
+              <p><span class="comp-head">Lot Area</span>{{sale.lot_area}}</p>
+              <br />
+              <a
+                style="
+                  width: 50px;
+                  height: 50px;
+                  color: white;
+                  background-color: #126440;
+                  text-decoration: none;
+                  font-size: 14px;
+                  padding: 8px 12px;
+                "
+                href="{{sale.zillow_link}}"
+                >View Property</a
+              >
+              <br />
+            </div>
+            {% endfor %}
+          </div>
+          <div class="row">
+            {% for sale in report.comparable_sales|slice:"3:6" %}
+            <div class="cell">
+              <p>{{sale.address}}</p>
+              <br />
+              <p><span class="comp-head">Distance</span>{{sale.distance}} ft</p>
+              <p><span class="comp-head">Area</span>{{sale.area}} sqft</p>
+              <p>
+                <span class="comp-head">Bed/Bath</span
+                >{{sale.bedroom_count}}/{{sale.bathroom_count}}
+              </p>
+              <p><span class="comp-head">Year Built</span>{{sale.year}}</p>
+              <p><span class="comp-head">Lot Area</span>{{sale.lot_area}}</p>
+              <br />
+              <a
+                style="
+                  width: 50px;
+                  height: 50px;
+                  color: white;
+                  background-color: #126440;
+                  text-decoration: none;
+                  font-size: 14px;
+                  padding: 8px 12px;
+                "
+                href="{{sale.zillow_link}}"
+                >View Property</a
+              >
+              <br />
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %} {% if report.zoning.property %}
+        <h1 class="center">Parcel Information</h1>
+        <div class="cell center" style="width: 100vw">
+          <img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/map.png"
+            width="40"
+            height="40"
+            style="object-fit: contain"
+          />
+          <h2>Longitude/Latitude</h2>
+          <p>
+            {{report.zoning.property.longitude}}/{{report.zoning.property.latitude}}
+          </p>
+        </div>
+        <div class="column">
+          <div class="row">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/square-marker.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Maximum Buildable Area</h2>
+              <p>{{report.zoning.property.maximum_buildable_area}} sqft</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/total.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Parcel Area</h2>
+              <p>{{report.zoning.property.parcel_area}}</p>
+            </div>
+          </div>
+          <div class="row border-top-0">
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/width.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Lot Width</h2>
+              <p>{{report.zoning.property.lot_width}} ft</p>
+            </div>
+            <div class="cell">
+              <img
+                src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/length.png"
+                width="40"
+                height="40"
+                style="object-fit: contain"
+              />
+              <h2>Lot Depth</h2>
+              <p>{{report.zoning.property.lot_depth}} ft</p>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if report.zoning.zoning %}
+        <h1 class="center">Zoning Summary</h1>
+        <div class="column">
+          <div class="row zoning">
+            <div class="cell center">
+              <h2>Complete Zoning Regulations</h2>
+              <p>
+                <a
+                  href="{{
+                  report.zoning.zoning.reference
+                  }}"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >View Regulations</a
+                >
+              </p>
+              <h2>Paracel ID</h2>
+              <p>{{ report.property.parcel_id }}</p>
+              <h2>Zoning Classification</h2>
+              <p>{{ report.property.property_type }}</p>
+              <h2>Zoning Code</h2>
+              <p>{{ report.zoning.zoning.zoning_code }}</p>
+              <h2>Minimum Open Space Area</h2>
+              <p>{{ report.zoning.property.minimum_open_space_area }}</p>
+            </div>
+            <div class="cell center">
+              <h2>Minimum street frontage</h2>
+              <p>{{ report.zoning.zoning.minimum_street_frontage }}</p>
+              <h2>Maximum building height</h2>
+              <p>{{ report.zoning.zoning.max_building_height }}</p>
+              <h2>Minimum front setback</h2>
+              <p>{{ report.zoning.zoning.front_setback }}</p>
+              <h2>Minimum rear setback</h2>
+              <p>{{ report.zoning.zoning.rear_setback }}</p>
+              <h2>Minimum side setback</h2>
+              <p>{{ report.zoning.zoning.side_setback }}</p>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="banner footer-banner center">
+          Harnessing the power of technology and insightful analytics, IQLAND.ai
+          revolutionizes single-family home development decisions. This report
+          offers just a glimpse of one potential plan for your parcel. Want to
+          explore the vast range of 1,000s of house plans tailored for your
+          unique site? Dive into our interactive dashboard for real-time
+          insights, cost projections, and more. Unveil the full potential of
+          your parcel with IQLAND.ai.
+        </div>
+      </div>
+      <div class="footer">
+        <a
+          href="https://www.instagram.com/iqland.ai/"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/insta.png"
+            alt="IQLand Instagram"
+            height="40"
+        /></a>
+        <a
+          href="https://www.facebook.com/iqlandai/"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/fb.png"
+            alt="IQLand Facebook"
+            height="40"
+          />
+        </a>
+        <a
+          href="https://twitter.com/IQLAND_AI"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/twitter.png"
+            alt="IQLand Twitter"
+            height="40"
+          />
+        </a>
+      </div>
+      <div class="logo">
+        <a href="https://iqland.ai/" target="_blank" rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/logo.png"
+            alt="IQLand Logo"
+            height="40"
+        /></a>
+        <p style="color: #126440">
+          Shaping the future of home development with data
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,617 @@
+[
+    {
+        "city": "Tulsa",
+        "county": "Tulsa county",
+        "state": "Oklahoma",
+        "zoning_code": "RM-0",
+        "zoning_name": "Residential Multi-family 0",
+        "minimum_street_frontage": {
+            "name": "minimum street frontage",
+            "value": 30,
+            "unit": "feet",
+            "note": "Minimum street frontage requirements apply to townhouse developments, not to individual townhouse units. Cottage house developments require minimum street frontage of 75 feet. Minimum street frontage requirements do not apply to nonresidential uses.",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "minimum_arterial_street_setback": {
+            "name": "minimum arterial street setback",
+            "value": 10,
+            "unit": "feet",
+            "note": "For detached houses and duplexes on corner lots, the minimum side street setback along a non-arterial street may be reduced to 15 feet, provided that the minimum setback for street-facing garage doors is 20 feet or 20 feet from the back of the sidewalk, whichever is greater. The street setback specified in Table 5-3 applies along the other street.",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "minimum_other_street_setback": {
+            "name": "minimum non-arterial street setback",
+            "value": 10,
+            "unit": "feet",
+            "note": "For detached houses and duplexes on corner lots, the minimum side street setback along a non-arterial street may be reduced to 15 feet, provided that the minimum setback for street-facing garage doors is 20 feet or 20 feet from the back of the sidewalk, whichever is greater. The street setback specified in Table 5-3 applies along the other street.",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "minimum_interior_side_setback": {
+            "name": "minimum interior side setback",
+            "value": 5,
+            "unit": "feet",
+            "note": [
+                        "Non-residential uses requiring special exception approval in R zoning districts require minimum 25-foot building setback from R-zoned lots that are vacant or occupied by residential uses.",
+                        "Minimum interior side setback is 10 feet for apartment/condo and permitted nonresidential buildings."
+                    ],
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "minimum_rear_setback": {
+            "name": "minimum rear setback",
+            "value": 20,
+            "unit": "feet",
+            "note": "Non-residential uses requiring special exception approval in R zoning districts require minimum 25-foot building setback from R-zoned lots that are vacant or occupied by residential uses.",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "minimum_open_space_per_unit": {
+            "name": "minimum open space per unit",
+            "value": 1200,
+            "unit": "square feet",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "maximum_building_height": {
+            "name": "maximum building height",
+            "value": 35,
+            "unit": "feet",
+            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+        },
+        "residential": {
+            "single_household": {
+                "name": "single household",
+                "permit_type": "Permitted",
+                "note": "A Farm-, Market- or Community-supported, may only be allowed in a residential district where the land area of a single parcel is greater than 2 acres.",
+                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.020USRE",
+                "building_type": {
+                    "detached_house": {
+                        "name": "detached house",
+                        "permit_type": "Permitted",
+                        "note":"Accessory dwelling units are allowed by right in RD, RT, RM, and RMH Districts on a lot occupied by a detached house. For supplemental regulations, see Section 45.031.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "patio_house": {
+                        "name": "patio house",
+                        "permit_type": "Permitted",
+                        "note": "Patio houses are subject to the lot and building regulations of the subject zoning district, except as expressly modified by the supplemental patio house regulations of this section.\n A.A patio house development must consist of at least three (3) contiguous lots with frontage on the same street.\n B.The interior side building setback on one side of the lot containing a patio house may be reduced to as little as zero. The zero- or reduced setback side of a patio house may not abut a street and may not abut a lot that is not part of the patio house development. On the 'non-zero' side, a side building setback must be provided equal to at least twice the minimum side building setback requirement of the subject zoning district.\n C.When the patio house's exterior wall or eaves are within two (2) feet of the abutting property line, a perpetual maintenance easement at least five (5) feet in width must be provided on the lot abutting the zero patio property line, which, with the exception of walls and/or fences, must be kept clear of structures. The easement must be depicted on and established in a recorded plat or a separate legal instrument recorded in the county clerk's office. This provision is intended to ensure the ability to conduct maintenance on the patio house. Eaves on the side of a patio house with a zero or reduced setback may project over the side property line only if shown on the easement required under this paragraph.D.Windows, doors and other openings that allow for visibility into the side yard of the lot abutting the reduced or zero setback side of the patio house are prohibited. Windows that do not allow visibility into the side yard of the lot abutting the zero or reduced setback side, such as clerestory windows or translucent windows, are allowed, subject to compliance with the building code.\n E. A patio house development is permitted only if a subdivision plat or other recorded legal instrument incorporating the provisions and requirements of this section (Section 40.290) is recorded in the county clerk's office.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "two_unit_townhouse": {
+                        "name": "2-unit townhouse",
+                        "permit_type": "Permitted",
+                        "note": "A.Applicability. Townhouses are subject to all applicable regulations of this zoning code and other city codes and ordinances except as modified or supplemented by the townhouse development and building regulations of this section.\n B.Side setbacks. No side building setback is required for common or abutting walls. Otherwise, the minimum side setback requirements of the subject zoning district apply.\n C.Design. Townhouses must be affixed to a permanent foundation.\n D.Open space. Required open space per dwelling unit for a townhouse project may be provided either on each townhouse lot or in common areas within the overall townhouse project, as designated on a recorded subdivision plat or in a separately recorded legal instrument.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 1600,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 1600,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 20,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "multi_unit_townhouse": {
+                        "name": "multi-unit (3+) townhouse",
+                        "permit_type": "Permitted",
+                        "note": "A.Applicability. Townhouses are subject to all applicable regulations of this zoning code and other city codes and ordinances except as modified or supplemented by the townhouse development and building regulations of this section.\n B.Side setbacks. No side building setback is required for common or abutting walls. Otherwise, the minimum side setback requirements of the subject zoning district apply.\n C.Design. Townhouses must be affixed to a permanent foundation.\n D.Open space. Required open space per dwelling unit for a townhouse project may be provided either on each townhouse lot or in common areas within the overall townhouse project, as designated on a recorded subdivision plat or in a separately recorded legal instrument.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 1600,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 1600,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 20,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "manufactured_housing_unit": {
+                        "name": "manufactured housing unit",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "note": "The supplemental regulations of this section apply only to manufactured housing units approved as special exception uses in R or AG-R zoning districts.\n A.The manufactured housing unit must be removed from the lot within one year of the date of special exception approval. The board of adjustment is authorized to extend the one-year limit through approval of a subsequent special exception if the (special exception) extension request is filed before expiration of the one-year time limit.\n B.No more than one manufactured housing unit may be located on a lot.\n C.Manufactured housing units are required to comply with the same lot and building regulations that apply to detached houses in the subject zoning district.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "manufactured_housing_subdivision": {
+                        "name": "manufactured housing subdivision",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "mobile_home": {
+                        "name": "mobile home",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "mixed_use_building": {
+                        "name": "mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "vertical_mixed_use_building": {
+                        "name": "vertical mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    }
+                }
+            },
+            "two_households_single_lot": {
+                "name": "two households on single lot",
+                "permit_type": "Permitted",
+                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.020USRE",
+                "building_type": {
+                    "duplex": {
+                        "name": "duplex",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 2750,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "mixed_use_building": {
+                        "name": "mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "vertical_mixed_use_building": {
+                        "name": "vertical mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    }
+                }
+            },
+            "multiple_households_single_lot":{
+                "name": "multiple households (three or more) on single lot",
+                "permit_type": "Special Exception. Approval Required.",
+                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.020USRE",
+                "building_type": {
+                    "cottage_house_development": {
+                        "name": "cottage house development",
+                        "permit_type": "Permitted",
+                        "note":"Cottage house developments are subject to the lot and building regulations that apply to detached houses in the subject zoning district, except as expressly modified by the cottage house development regulations of this section.\n A.Purpose. The cottage house development regulations of this zoning code are intended to provide opportunities for individual ownership of small houses oriented around a courtyard or common open area.\n B.Development size. Cottage house developments must contain at least four (4) and no more than ten (10) houses arranged around at least two (2) sides of a courtyard or common open space.\n C.Orientation of cottage houses.\n 1.Cottage houses must be oriented to, and have a main entry onto a courtyard or common open space area that is accessible by all residents in the cottage house development, provided that cottage houses on lots abutting minor streets must have their front building elevation facing the street, including a building entrance, with a second entrance facing a courtyard or common open space area.\n 2.Required courtyards and common open space areas must have cottage houses abutting on at least two (2) sides.\n 3.All cottage houses must be located within seventy-five (75) feet walking distance of a required courtyard or common open space area.\n D.Open space. A unified, contiguous courtyard or common open space must be provided as the focal point of the cottage house development. The courtyard or common open space area must contain at least two hundred fifty (250) square feet of common open space per cottage house.\n E.Building setbacks and separation. All buildings within a cottage house development must comply with the minimum building setbacks that apply to detached houses in the subject zoning district, except that no building setback is required from an alley. Buildings within a cottage house development must be separated by a minimum distance of ten (10) feet.\n F.Building coverage. Individual cottage houses are subject to a maximum first floor area of one thousand (1,000) square feet. Attached garages are counted in the calculation of first floor area, but covered porches and detached accessory buildings are not counted.\n G.Vehicular access and parking.\n 1.Vehicular access to parking areas serving cottage houses within the development may come from the street, an alley or a private drive.\n 2.Required parking may be provided on each cottage house lot or in a shared parking area located within commonly owned space or in a combination of the two. Common parking areas containing four (4) or more spaces must be screened from view of abutting R- or AG-R-zoned lots in accordance with the F1 screening fence or wall standards of Subsection 65.070C. Parking may not be located in street yards or in the required courtyard or common open space area.\n H.Restrictive covenants. A cottage house development is permitted only if a subdivision plat or other recorded legal instrument incorporating the provisions and requirements of this section (Section 40.110) is recorded in the county clerk's office.",  
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 10000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 2500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 75,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "multi_unit_house": {
+                        "name": "multi-unit house",
+                        "permit_type": "Permitted",
+                        "note": "Multi-unit houses are subject to the lot and building regulations of the subject zoning district, except as expressly modified by the supplemental regulations of this section.\n A.The street-facing façade of a multi-unit house may have only one building entrance that is visible from the street. If the building is located on a corner lot, one building entrance may be visible from each street.\n B.Patio-style doors, such as sliding glass doors, may not be used for entrance doors on building façades that face a street.\n C.The front façade of new multi-unit houses established after the effective date established in Section 1.030 may not exceed sixty (60) feet in width.\n D.Outdoor (surface) parking areas may not be located between the principal building and the street or within any required side building setback.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 1800,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "apartment_condo": {
+                        "name": "apartment or condo",
+                        "permit_type": "Permitted",
+                        "note": "Whenever an apartment/condo building is located on a lot abutting an RE, RS, or AG-R district, a screening wall or fence must be provided along the common lot line in accordance with the F1 screening fence or wall standards of Subsection 65.070-C.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 10000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 2900,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_interior_side_setback": {
+                            "name": "minimum interior side setback",
+                            "value": 10,
+                            "unit": "feet",
+                            "note": "Minimum interior side setback is 10 feet for apartment/condo and permitted nonresidential buildings.",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "mobile_home_park": {
+                        "name": "mobile home park",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "mixed_use_building": {
+                        "name": "mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    },
+                    "vertical_mixed_use_building": {
+                        "name": "vertical mixed-use building",
+                        "permit_type": "Prohibited",
+                        "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                    }
+                }
+            },
+            "group_living": {
+                "name" : "group living",
+                "note": "Whenever any group living use is located on a lot abutting an RE-, RS-, or AG-R-zoned lot, a screening wall or fence must be provided along the common lot line in accordance with the F1 screening fence or wall standards of Subsection 65.070C.",
+                "source":"https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.020USRE",
+                "building_type": {
+                    "assisted_living_facility": {
+                        "name": "assisted living facility",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "community_group_home": {
+                        "name": "community group home",
+                        "permit_type": "Permitted",
+                        "note": "The supplemental use regulations of this section apply to all community group homes.\n A.The occupancy of a community group home may not exceed fifteen (15) inhabitants. Consideration of special exception approval must, at least in part, be based upon a showing that, but for the economic need associated with the number of inhabitants requested to be permitted in the proposed group home, (1) the dwelling would otherwise be available to the applicant; and (2) the requested number of inhabitants is reasonably calculated to offset the increased economic costs associated with the group home use.\n B.Community group homes must have all licenses required by the state. A special exception granted for a community group home use will immediately become void upon final revocation of any required state license.\n C.To avoid over-concentration, community group homes in RE, RS or RD zoning districts may not be located within one thousand three hundred (1,300) feet of any other community group home. This separation requirement is established, not on the basis of any disability status, but on the basis of the non-family status of the groups. The required separation distance must be measured in a straight line from the nearest lot lines of the lots occupied by the community group home uses.\n D.In order to allow for special accommodations for inhabitants of community group homes, the board of adjustment is authorized, by special exception, to reduce or eliminate the separation distance requirement upon a finding that the federal Fair Housing Amendments Act, as amended, requires it, or that the grant of the special exception will not be injurious to the neighborhood or detrimental to the public welfare and will be in harmony with the spirit and intent of this zoning code. In consideration of granting this special exception, the board of adjustment must specifically consider the following factors:\n 1.Traffic and parking congestion given the capacity of nearby streets;\n 2.The likelihood that any other applicable group home use will impact traffic and parking congestion;\n 3.Traffic hazards;\n 4.Availability of off-street parking;\n 5.Availability of public transit and the likelihood of its use;\n 6.Feasibility of traffic mitigation measures; and\n 7.Impacts on public utilities, including water and sanitary sewer capacities.\n E.When a community group home is located on a lot abutting an RE-, RS-, or AG-R-zoned lot, a screening wall or fence must be provided along the common lot line in accordance with the F1 screening fence or wall standards of Subsection 65.070C.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "convent_monastery_novitiate": {
+                        "name": "convent monastery novitiate",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "elderly_retirement center": {
+                        "name": "elderly or retirement center",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "fraternity_sorority": {
+                        "name": "fraternity or sorority",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "homeless_center": {
+                        "name": "homeless center",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "note": "A.The supplemental use regulations of this section apply to all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses.\n B.To avoid over-concentration, all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses must be separated from one another by a minimum distance of two thousand six hundred forty (2,640) feet, as measured in a straight line from the nearest point on the lot line of the property occupied by one of these uses to the nearest point on a lot line of the other property occupied by one of the subject uses. The separation distance requirements of this subsection may be reduced if approved through the special exception approval process.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "life_care_retirement_center": {
+                        "name": "life care retirement center",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "re_entry_facility": {
+                        "name": "re-entry facility",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "residential_treatment_center": {
+                        "name": "residential treatment center",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "note": "A.The supplemental use regulations of this section apply to all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses.\n B.To avoid over-concentration, all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses must be separated from one another by a minimum distance of two thousand six hundred forty (2,640) feet, as measured in a straight line from the nearest point on the lot line of the property occupied by one of these uses to the nearest point on a lot line of the other property occupied by one of the subject uses. The separation distance requirements of this subsection may be reduced if approved through the special exception approval process.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "rooming_boarding_house": {
+                        "name": "rooming or boarding house",
+                        "permit_type": "Permitted",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 5500,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 50,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "shelter_emergency_protective": {
+                        "name": "shelter, emergency and protective",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "note": "A.The supplemental use regulations of this section apply to all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses.\n B.To avoid over-concentration, all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses must be separated from one another by a minimum distance of two thousand six hundred forty (2,640) feet, as measured in a straight line from the nearest point on the lot line of the property occupied by one of these uses to the nearest point on a lot line of the other property occupied by one of the subject uses. The separation distance requirements of this subsection may be reduced if approved through the special exception approval process.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    },
+                    "transitional_living_center": {
+                        "name": "transitional living center",
+                        "permit_type": "Special Exception. Approval Required.",
+                        "note": "A.The supplemental use regulations of this section apply to all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses.\n B.To avoid over-concentration, all detention and correctional facilities, emergency and protective shelters, homeless centers, residential treatment centers and transitional living center uses must be separated from one another by a minimum distance of two thousand six hundred forty (2,640) feet, as measured in a straight line from the nearest point on the lot line of the property occupied by one of these uses to the nearest point on a lot line of the other property occupied by one of the subject uses. The separation distance requirements of this subsection may be reduced if approved through the special exception approval process.",
+                        "minimum_lot_area": {
+                            "name": "minimum lot area",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_area_per_unit": {
+                            "name": "minimum lot area per unit",
+                            "value": 12000,
+                            "unit": "square feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        },
+                        "minimum_lot_width": {
+                            "name": "minimum lot width",
+                            "value": 100,
+                            "unit": "feet",
+                            "source": "https://library.municode.com/ok/tulsa/codes/code_of_ordinances?nodeId=CD_ORD_TIT42ZOCO_CH5REDI_S5.030LOBURE"
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

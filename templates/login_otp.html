@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login OTP</title>
+    <style>
+      body,
+      p,
+      li {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #126440 !important;
+      }
+
+      .logo {
+        text-align: center;
+        padding: 32px 0;
+      }
+
+      .banner {
+        padding: 16px;
+        background-color: #126440;
+        color: white;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: Arial, sans-serif;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .container {
+        margin: 24px auto;
+        background-color: #ffffff;
+        border: 2px solid #ffedd1;
+        max-width: 700px;
+      }
+
+      .content {
+        margin: 40px 32px;
+      }
+
+      .content h1 {
+        margin: 0;
+        font-size: 30px;
+        color: #126440;
+        font-weight: 400;
+      }
+
+      .content .otp {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-family: Arial, sans-serif;
+      }
+
+      .content p,
+      .content li {
+        margin-bottom: 16px;
+      }
+
+      .content ol {
+        margin-bottom: 32px;
+      }
+
+      .content .closing {
+        margin-top: 32px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+      }
+
+      .footer a {
+        text-decoration: none;
+      }
+
+      .footer img {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="https://iqland.ai/" target="_blank" rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/logo.png"
+            alt="IQLand Logo"
+            height="40"
+        /></a>
+      </div>
+
+      <div class="banner center">
+        Shaping the Future of Home Development with Data
+      </div>
+
+      <div class="content">
+        <p>Dear {{ name }},</p>
+        <p>
+          For your security, a verification code is required to complete your
+          sign-in to IQLand. Please use the code provided below:
+        </p>
+        <h1 class="otp">Your Verification Code: {{ otp }}</h1>
+        <p class="list">To sign in, follow these steps:</p>
+        <ol>
+          <li>Copy the verification code above.</li>
+          <li>Go to the verification page on our website.</li>
+          <li>Paste or enter the verification code in the designated field.</li>
+          <li>Click "Verify" to complete the sign-in process.</li>
+        </ol>
+        <p>
+          If you did not attempt to sign in or have any questions, please
+          contact our support team immediately at support@iqland.ai
+        </p>
+        <p>We prioritize your security and appreciate your cooperation.</p>
+        <p class="closing">Best regards,</p>
+        <p>IQLand</p>
+        <a href="https:iqland.ai" target="_blank" rel="noreferrer noopener"
+          ><p>iqland.ai</p>
+        </a>
+        <p>support@iqland.ai</p>
+      </div>
+
+      <div class="footer">
+        <a
+          href="https://www.instagram.com/iqland.ai/"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/insta.png"
+            alt="IQLand Instagram"
+            height="40"
+        /></a>
+        <a
+          href="https://www.facebook.com/iqlandai/"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/fb.png"
+            alt="IQLand Facebook"
+            height="40"
+          />
+        </a>
+        <a
+          href="https://twitter.com/IQLAND_AI"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><img
+            src="https://s3.amazonaws.com/www.iqland.ai/images/email-templates/twitter.png"
+            alt="IQLand Twitter"
+            height="40"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
